@@ -52,9 +52,13 @@ struct checksumsha256	{
 	char backup[32];
 };
 
+#pragma pack(push, 1)
 struct bsgs_xvalue	{
-	uint8_t value[6];
+	uint8_t value[5];
 	uint64_t index;
+};
+#pragma pack(pop)
+
 };
 
 struct tothread {
