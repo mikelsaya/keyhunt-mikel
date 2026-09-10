@@ -195,7 +195,7 @@ char *range_end;
 char *str_stride;
 Int stride;
 
-uint64_t BSGS_XVALUE_RAM = 6;
+uint64_t BSGS_XVALUE_RAM = 5;
 uint64_t BSGS_BUFFERXPOINTLENGTH = 32;
 uint64_t BSGS_BUFFERREGISTERLENGTH = 36;
 
